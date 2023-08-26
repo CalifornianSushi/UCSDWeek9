@@ -1,0 +1,59 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+.weather-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.weather-container button {
+    padding: 6px 12px;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.weather-container button:hover {
+    background-color: #27ae60;
+}
+
+.cityInput {
+    border-radius: 5px;
+}
